@@ -1,0 +1,12 @@
+div{
+    display: grid;
+}
+
+label{
+    display: flex;
+}
+
+#suggestions{
+    width: auto;
+    height: auto;
+}
