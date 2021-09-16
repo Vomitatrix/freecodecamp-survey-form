@@ -1,12 +1,60 @@
+html{
+    font-family: 'Poppins';
+    font-size: large;
+    color: white;
+    background-image: 
+    linear-gradient(115deg, 
+    rgba(58, 58, 158, 0.8), 
+    rgba(136, 136, 206, 0.7)), 
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 2.5em;
+    border-radius: 0.25em;
+}
+
 div{
     display: grid;
 }
+.input-field{
+    margin: 0 auto 1.25em auto;
+    padding: 0.25em;
+}
 
-label{
-    display: flex;
+input, select{
+    border-radius: 00.25em;
+    padding: 00.5em;
 }
 
 #suggestions{
     width: auto;
     height: auto;
+    border-radius: 00.5em;
 }
+
+#submit{
+    color: white;
+    padding: 00.5em;
+    background-color: #37af65;
+    border-color: #37af65;
+}
+
+/*
+the piece of code that I added to the html file to display the background as I wanted it to
+it's crap but it works
+ style="background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url('images/bg.png');"
+
+ style="background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url('images/bg.png');"
+*/
